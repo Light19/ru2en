@@ -1,2 +1,2 @@
 # ru2en
-A little extension that helps you see the untranslated version of web
+Bored of english websites poorly translated to russian? This extension seeks for the "/ru/", "/ru-ru/" or ""://ru."" pattern in the current page's url and replaces it with "/en/", "/en-us/" and "://en." accordingly, so you can see original version of web page. Warning! It may cause troubles with some websites - if you can't see content at some page or getting 404 error, try disabling this extension.

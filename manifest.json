@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Ru2En",
+	"version": "1.1",
+	"description": "A little extension that helps you see the untranslated version of web.",
+	"icons": {
+		"48": "icons/48.png"
+	},
+	"content_scripts": [{
+			"matches": ["<all_urls>"],
+			"js": ["ru2en.js"]
+		}
+	]
+}
