@@ -1,4 +1,5 @@
 {
+	
 	"manifest_version": 2,
 	"name": "Ru2En",
 	"version": "1.1",
@@ -6,6 +7,30 @@
 	"icons": {
 		"48": "icons/48.png"
 	},
+	
+	"browser_specific_settings": { //https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings
+	  "gecko": {
+		"id": "github.com@Light19.ru2en",
+		"strict_min_version": "42.0"
+	  }
+	},
+	
+	"background": {
+      "scripts": ["background.js"]
+    },
+	
+	"browser_action": {
+		"default_icon": {
+		  "16": "icons/16.png",
+		  "32": "icons/32.png",
+		  "48": "icons/48.png"
+		}
+	},
+	
+	"permissions": [
+		"storage"
+	],
+	
 	"content_scripts": [{
 			"matches": ["<all_urls>"],
 			"js": ["ru2en.js"]
