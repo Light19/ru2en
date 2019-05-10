@@ -2,7 +2,7 @@
 	
 	"manifest_version": 2,
 	"name": "Ru2En",
-	"version": "1.1",
+	"version": "1.2",
 	"description": "A little extension that helps you see the untranslated version of web.",
 	"icons": {
 		"48": "icons/48.png"
@@ -10,7 +10,7 @@
 	
 	"browser_specific_settings": { //https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_specific_settings
 	  "gecko": {
-		"id": "github.com@Light19.ru2en",
+		"id": "{5432cefd-1e60-4865-b487-03f4d58398ea}",
 		"strict_min_version": "42.0"
 	  }
 	},
